@@ -26,7 +26,7 @@ def calculate():
         result.config(text="Lütfen değerleri boş bırakmayın!")
 
 
-tkinter.Label(window, text="Kilonuz:",font=("Arial", 16,"bold")).pack()
+tkinter.Label(window, text="Kilonuz (kg)",font=("Arial", 16,"bold")).pack()
 weight = tkinter.Entry(window, font=("Arial",16, "normal"), justify="center", width=10)
 weight.pack()
 tkinter.Label(window, text="Boyunuz (cm)", font=("Arial", 16, "bold")).pack()
